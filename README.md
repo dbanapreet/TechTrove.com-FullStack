@@ -1,3 +1,6 @@
+
+![Logo](https://github.com/dbanapreet/TechTrove.com-FullStack/blob/main/Preview.png)
+
 # TechTrove.com 🧠💻
 
 TechTrove.com is a full-stack web application built by developers and computer engineers to offer *freelancing services* in areas like *web development, **mobile apps, and **digital marketing. Additionally, the platform features a **course marketplace, where users can browse and purchase courses in **Web Development, **Prompt Engineering, **Data Science*, and more.
