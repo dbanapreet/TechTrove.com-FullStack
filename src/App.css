@@ -1,0 +1,340 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar a:hover{
+  color: #0e4971;
+}
+
+.btn-get-started{
+   position: relative;
+   top: 15px;
+   color: white;
+   background-color: rgb(7, 200, 103);
+   padding: 15px;
+   border-radius: 10%;
+   text-decoration: none;
+}
+
+.btn-get-started:hover{
+  background-color: rgb(8, 246, 99);
+}
+
+.brand-name{
+  color: rgba(8, 246, 99, 0.842);
+}
+
+.container-fluid nav_bg{
+   color: white;
+}
+
+.header-img{
+  text-align: right;
+}
+
+.header-img {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down{
+   
+  0% {
+     transform: translateY(10px);
+
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+
+}
+
+
+@-webkit-keyframes up-down {
+  0%{
+    transform: translateY(10px);
+  }
+
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+.mt-3{
+  color: black;
+}
+
+.not-found{
+
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.btn-get-started2{
+  color: white;
+  background-color: rgb(18, 18, 21);
+  margin-top: -2px; 
+  width: 10%;
+  padding: 15px;
+  border-radius: 10%;
+}
+
+.yk-2 {
+  padding-top: 40px; /* Adjust the value as needed */
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+ 
+}
+
+.registration-form {
+  position: absolute;
+  background-color: rgba(13, 12, 12, 0.896); /* Transparent white background */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(16, 15, 15, 0.673);
+  width: 500px;
+  height: 680px;
+  margin-bottom: -370px;
+  margin-right: 1850px;
+  z-index: 10;
+}
+
+.registration-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btnreg {
+  
+  position: absolute;
+  margin-left: 70px;
+  top: 570px;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #189701;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btnreg:hover {
+  background-color: #23b728;
+}
+
+.close{
+  position: absolute;
+  font-size: 2.3em;
+  top: -1px;
+  margin-left: 422px;
+  cursor: pointer;
+}
+
+.close:hover{
+  font-size: 2.5em;
+}
+
+.container1{
+  position: absolute;
+  margin-left: 730px;
+  top: 145px;
+  width: 500px;
+  height: 65vh;
+  border-radius: 15px;
+  color: white;
+  background-color: #070808e2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.btn11{
+  position: absolute;
+  margin-top: 280px;
+  padding: 10px 60px;
+  color: white;
+  background-color: #189701;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 17px;
+  text-decoration: none;
+
+}
+
+.btn11:hover{
+  background-color: #23b728;
+}
+
+.tickImage{
+  position: absolute;
+  width: 170px;
+  height:150px;
+  border-radius: 10px;
+  top:43px;
+  margin-left: 100px;
+}
+
+.headtext11{
+  position: relative;
+  margin-left: 100px;
+}
+
+.centeredContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.close1{
+
+  position: absolute;
+  font-size: 2.3em;
+  top: -5px;
+  margin-left: 550px;
+  cursor: pointer;
+
+}
+
+.close1:hover{
+
+  font-size: 2.5em;
+}
+
+.btn-spacing {
+  position: relative;
+  right: 50px;
+  margin-right: 4px; 
+}
+
+.btn-spacing-2{
+  position: absolute;
+  right: 215px;
+}
+
+.navbar-brand {
+  position: absolute;
+  top: 13px;
+  font-size: 4rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #ff6f61; /* optional: stylish color */
+  animation: fadeSlideIn 1.5s ease-in-out; 
+}
+
+/* Animation keyframes */
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+
+.backbtn1{
+  position: absolute;
+  margin-top: -205px;
+  left: 22px;
+  width: 65px;
+  font-size: 2.5rem;
+  color: white;
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+
+}
+
+@keyframes pop {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+}
+
+.popping-text {
+  animation: pop 0.6s ease-in-out infinite;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 5s; /* triggers every 5 seconds */
+}
+
+
+
